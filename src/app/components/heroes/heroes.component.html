@@ -1,1 +1,10 @@
-<p>heroes works!</p>
+<div class="container">
+    <h2>Bienvenue {{hero.name | uppercase}}</h2>  <br>
+    <div><span>Name: </span>{{hero.name}}</div><br>
+
+    <input  class="form-control" id="name" [(ngModel)]="hero.name" placeholder="name">
+    <br>
+     <button type="button" class="btn btn-success" (click)="handleClick()">Renitialiser</button>
+</div>
+
+
