@@ -10,6 +10,7 @@ import { ServicesComponent } from './components/services/services.component';
 import { AproposComponent } from './components/apropos/apropos.component';
 import { HeroesComponent } from './components/heroes/heroes.component';
 import { FormsModule } from '@angular/forms';
+import { MockHeroesComponent } from './components/mock-heroes/mock-heroes.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { FormsModule } from '@angular/forms';
     HomeComponent,
     ServicesComponent,
     AproposComponent,
-    HeroesComponent
+    HeroesComponent,
+    MockHeroesComponent
   ],
   imports: [
     BrowserModule,
