@@ -15,7 +15,6 @@ import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService } from './services/inMemoryData/in-memory-data.service';
 import { HeroSearchComponent } from './hero-search/hero-search.component';
 
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -32,9 +31,7 @@ import { HeroSearchComponent } from './hero-search/hero-search.component';
     HttpClientModule,
     HttpClientInMemoryWebApiModule.forRoot(
     InMemoryDataService, { dataEncapsulation: false }
-    )
-
-    
+    )    
   ],
   providers: [],
   bootstrap: [AppComponent]
